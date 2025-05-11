@@ -18,6 +18,7 @@
     "eco-vue-js": "0.10.60",
     "eslint": "9.25.0",
     "typescript": "5.8.3",
+    "unocss": "66.1.1",
     "vite": "6.3.2"
   }
 }

@@ -1,3 +1,4 @@
+import UnoCSS from 'unocss/vite'
 import {defineConfig} from 'vite'
 
 import {resolve} from 'path'
@@ -6,6 +7,7 @@ import {extensionBuilder} from './build/vite-plugin-extension-builder'
 
 export default defineConfig({
   plugins: [
+    UnoCSS(),
     extensionBuilder({
       manifestPath: './src/manifest.ts',
       publicDir: 'public',
