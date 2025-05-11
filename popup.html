@@ -2,19 +2,22 @@
 <html>
 
 <body class="m-0">
-  <div class="p-3 bg-zinc-800 text-white border border-gray-600 border-solid">
+  <div class="p-3 min-w-72 bg-zinc-800 text-white border border-gray-600 border-solid">
     <div class="mb-4">
-      <label
-        for="video_count"
-        class="font-semibold leading-loose"
-      >Videos per row:</label>
+      <div>
+        <label
+          for="video_count"
+          class="font-semibold leading-loose"
+        >Videos per row:</label>
+      </div>
+
       <input
         type="number"
         id="video_count"
         class="
           rounded-md -outline-offset-1 bg-inherit px-2 py-1
           border border-solid border-gray-400 appearance-none
-          focus:border-blue-600
+          focus:border-[#FD5441] w-full
         "
       />
     </div>
@@ -34,7 +37,7 @@
       <button
         id="button_reset"
         class="
-          bg-white text-black font-semibold border border-solid border-gray-600 rounded-2xl
+          bg-[#FD5441] font-semibold border border-solid border-[#E12E32] rounded-2xl
           py-1 px-2 focus:outline-none shadow-none appearance-none
           relative w-ripple w-ripple-hover
         "

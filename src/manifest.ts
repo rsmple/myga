@@ -18,6 +18,9 @@ const manifest: chrome.runtime.ManifestV3 = {
   ],
   permissions: ['storage'],
   host_permissions: ['https://www.youtube.com/*'],
+  icons: {
+    128: 'logo128.png',
+  },
 }
 
 export default manifest
