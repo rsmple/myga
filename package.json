@@ -1,0 +1,23 @@
+{
+  "name": "myga",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "zip": "cd dist && zip -r ../extension.zip .",
+    "build:zip": "npm run build && npm run zip"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "22.0.1",
+    "@types/chrome": "0.0.321",
+    "@types/jsdom": "21.1.7",
+    "@types/node": "22.14.1",
+    "eco-vue-js": "0.10.60",
+    "eslint": "9.25.0",
+    "typescript": "5.8.3",
+    "vite": "6.3.2"
+  }
+}
