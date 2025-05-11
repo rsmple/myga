@@ -7,7 +7,7 @@
     "type-check": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "zip": "cd dist && zip -r ../extension.zip .",
+    "zip": "cd dist && zip -r ./extension.zip .",
     "build:zip": "npm run build && npm run zip"
   },
   "devDependencies": {
