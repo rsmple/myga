@@ -5,9 +5,9 @@ const APPLY_TIMEOUT = 1000
 
 let timeout: number | null = null
 
-const getSettingsValue = (key: keyof Settings) => {
-  return new Promise(resolve => {
-    chrome.storage.local.get<Settings>([key], (data) => resolve(data[key]))
+const getSettingsValue = <Key extends keyof Settings>(key: Key) => {
+  return new Promise<Settings[Key] | null>(resolve => {
+    chrome.storage.local.get<Settings>([key], (data) => resolve(data[key] ?? null))
   })
 }
 
@@ -42,3 +42,5 @@ const applyChanges = async () => {
 }
 
 chrome.storage.local.onChanged.addListener(applyChanges)
+
+applyChanges()
