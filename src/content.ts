@@ -1,15 +1,27 @@
-chrome.storage.local.get(['gridValue'], (data) => {
-  if (!data.gridValue) return
+const APPLY_TIMEOUT = 1000
 
-  const applyValue = () => {
-    document.querySelectorAll('ytd-rich-grid-renderer').forEach(el => {
-      if (!(el instanceof HTMLElement)) return
+let timeout: number | null = null
 
-      el.style.setProperty('--ytd-rich-grid-items-per-row', data.gridValue.toString(), 'important')
-    })
-  }
+const getGridValue = () => {
+  return new Promise(resolve => {
+    chrome.storage.local.get(['gridValue'], (data) => resolve(data.gridValue))
+  })
+}
 
-  applyValue()
+const applyChanges = async () => {
+  if (timeout) clearTimeout(timeout)
 
-  setInterval(applyValue, 1000)
-})
+  const value = await getGridValue()
+
+  if (!value) return
+
+  document.querySelectorAll('ytd-rich-grid-renderer').forEach(el => {
+    if (!(el instanceof HTMLElement)) return
+
+    el.style.setProperty('--ytd-rich-grid-items-per-row', value.toString(), 'important')
+  })
+
+  timeout = setTimeout(applyChanges, APPLY_TIMEOUT)
+}
+
+chrome.storage.local.onChanged.addListener(applyChanges)
