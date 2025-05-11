@@ -1,6 +1,6 @@
 import {Settings} from './types'
-// eslint-disable-next-line import/no-unresolved
-import 'virtual:uno.css'
+
+import './popup.css'
 
 const input = document.getElementById('video_count') as HTMLInputElement
 
