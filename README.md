@@ -79,7 +79,7 @@ Simply click the link above and then click "Add to Chrome". You're all set to ma
 
 YouTube frequently updates its layout and codebase. This extension directly manipulates the YouTube DOM (the webpage structure), which means **future YouTube updates *can and likely will* break its functionality at some point.**
 
-We'll do our best to keep MYGA updated, but please be aware that it might occasionally need a fix after a major YouTube UI overhaul. If you notice it's broken, feel free to open an issue!
+I'll do my best to keep MYGA updated, but please be aware that it might occasionally need a fix after a major YouTube UI overhaul. If you notice it's broken, feel free to open an issue!
 
 ---
 
