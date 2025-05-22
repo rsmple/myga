@@ -72,7 +72,7 @@ Simply click the link above and then click "Add to Chrome". You're all set to ma
 *   **Vite**
 *   **TypeScript**
 *   **Tailwind CSS**
-*   **eco-vue-js**
+*   [**eco-vue-js**](https://github.com/rsmple/eco-vue-js)
 
 
 ## 🚨 Important Note
