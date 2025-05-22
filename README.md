@@ -19,7 +19,6 @@ MYGA is a project aimed at giving you back some control over your viewing experi
 
 *   🖼️ **Custom Video Grid:** You're the boss! Decide how many videos you want to see per row. Want a dense grid of 6? Or a more spacious 3? You got it.
 *   🚫 **Shorts Be Gone!:** Poof! The "Shorts" button and the entire "Shorts" shelf on your Subscriptions page will vanish. Enjoy a Shorts-free subscription feed.
-*   💅 **Sleek Options Panel:** Easily configure your preferences via a clean options page built with eco-vue-js.
 
 ## 📸 Screenshots (Show 'Em What They're Getting!)
 
