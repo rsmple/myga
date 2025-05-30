@@ -11,7 +11,7 @@ export default [
     ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**', '**/node_modules/**', '**/extension/**'],
   },
 
-  ...plugin.configs.recommended,
+  ...plugin.configs.recommended(),
 
   {
     settings: {
