@@ -11,18 +11,18 @@
     "build:zip": "npm run build && npm run zip"
   },
   "devDependencies": {
-    "@tsconfig/node22": "22.0.1",
-    "@types/chrome": "0.0.321",
+    "@tsconfig/node22": "22.0.2",
+    "@types/chrome": "0.0.325",
     "@types/jsdom": "21.1.7",
-    "@types/node": "22.14.1",
+    "@types/node": "22.15.29",
     "@types/postcss-import": "14.0.3",
     "autoprefixer": "10.4.21",
     "eco-vue-js": "0.10.65",
-    "eslint": "9.25.0",
-    "postcss": "8.5.3",
+    "eslint": "9.28.0",
+    "postcss": "8.5.4",
     "postcss-import": "16.1.0",
-    "tailwindcss": "3.4.16",
+    "tailwindcss": "3.4.17",
     "typescript": "5.8.3",
-    "vite": "6.3.2"
+    "vite": "6.3.5"
   }
 }
