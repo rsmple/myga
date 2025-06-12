@@ -1,9 +1,9 @@
 # 🚀✊ MYGA: Make YouTube Great Again ✊🚀
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/rsmple/myga)](https://github.com/your-username/myga/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/rsmple/myga)](https://github.com/rsmple/myga/commits/main)
 [![Available on the Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Available-brightgreen.svg)](https://chromewebstore.google.com/detail/konfhpobhoanpfggllnfhmmopfoklkcl?utm_source=item-share-cb)
 [![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/konfhpobhoanpfggllnfhmmopfoklkcl.svg)](https://chrome.google.com/webstore/detail/konfhpobhoanpfggllnfhmmopfoklkcl)
-[![GitHub Stars](https://img.shields.io/github/stars/rsmple/myga?style=social)](https://github.com/your-username/myga/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/rsmple/myga?style=social)](https://github.com/rsmple/myga/stargazers)
 
 Is your YouTube Subscriptions feed feeling a little... *short* on actual videos and a bit too wide? MYGA is here to help you take back control! This Chrome extension declutters your YouTube experience by banishing Shorts from your Subscriptions page and letting YOU decide how many videos fit comfortably in a row.
 
